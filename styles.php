@@ -14,7 +14,7 @@
     <link rel="apple-touch-icon-precomposed" href="/_assets/apple-touch-icon-precomposed.png" type="image/png"/>
 
     <!--meta-->
-    <title>Road Trip: Austin, TX - San Francisco, CA</title>
+    <title>Road Trip: Styleguide</title>
 </head>
 
 <body>
@@ -233,9 +233,9 @@ p q r s t u v w x y z { | } ~ </samp></pre>
             </div>
             <p>Used in conjunction with the <code>pre</code> element:</p>
             <div class="example">
-            <pre><code>function getJello() {
-                echo $aDeliciousSnack;
-            }</code></pre>
+<pre><code>function getJello() {
+    echo $aDeliciousSnack;
+}</code></pre>
             </div>
             <p>Shown with line numbers:</p>
             <div class="example">
@@ -386,37 +386,18 @@ p q r s t u v w x y z { | } ~ </samp></pre>
                         <legend>Legend</legend>
                         <div>
                             <label for="text">Text Input <abbr title="Required">*</abbr></label>
-                            <input id="text" type="text"/>
+                            <input id="text" type="text" class="field"/>
                             <em>Note about this field</em>
                         </div>
                         <div>
                             <label for="password">Password</label>
-                            <input id="password" type="password"/>
-                            <em>Note about this field</em>
-                        </div>
-                        <div>
-                            <label for="password">Web Address</label>
-                            <input id="password" type="url"/>
-                            <em>Note about this field</em>
-                        </div>
-                        <div>
-                            <label for="password">Email Address</label>
-                            <input id="password" type="email"/>
-                            <em>Note about this field</em>
-                        </div>
-                        <div>
-                            <label for="search">Search</label>
-                            <input id="search" type="search"/><input id="password" type="submit" class="search"/>
+                            <input id="password" type="password" class="field"/>
                             <em>Note about this field</em>
                         </div>
                         <div>
                             <label for="textarea">Textarea</label>
-                            <textarea id="textarea" rows="8" cols="48"></textarea>
+                            <textarea id="textarea" class="field" rows="8" cols="48"></textarea>
                             <em class="clear">Note about this field</em>
-                        </div>
-                        <div>
-                            <label for="checkbox">Single Checkbox</label>
-                            <label for="checkbox" class="check"><input id="checkbox" type="checkbox" class="checkbox"/> Label</label>
                         </div>
                         <div>
                             <label for="select">Select</label>
@@ -429,8 +410,11 @@ p q r s t u v w x y z { | } ~ </samp></pre>
                             </select>
                             <em>Note about this selection</em>
                         </div>
+                        <div>
+                            <label for="checkbox" class="check"><input id="checkbox" type="checkbox" class="checkbox"/> Label</label>
+                        </div>
                         <fieldset class="options">
-                            <legend>Checkbox <abbr title="Required">*</abbr></legend>
+                            <label for="checkbox">Checkbox <abbr title="Required">*</abbr></label>
                             <ul>
                                 <li><label for="checkbox1"><input id="checkbox1" name="checkbox" type="checkbox" checked="checked" /> Choice A</label></li>
                                 <li><label for="checkbox2"><input id="checkbox2" name="checkbox" type="checkbox" /> Choice B</label></li>
@@ -438,7 +422,7 @@ p q r s t u v w x y z { | } ~ </samp></pre>
                             </ul>
                         </fieldset>
                         <fieldset class="options">
-                            <legend>Radio</legend>
+                            <label for="radio">Radio</label>
                             <ul>
                                 <li><label for="radio1"><input id="radio1" name="radio" type="radio" class="radio" checked="checked" /> Option 1</label></li>
                                 <li><label for="radio2"><input id="radio2" name="radio" type="radio" class="radio" /> Option 2</label></li>
@@ -447,7 +431,6 @@ p q r s t u v w x y z { | } ~ </samp></pre>
                         <div class="submit">
                             <input type="submit" value="Post Comment" />
                             <input type="button" value="Preview" />
-                            <a href="#">Cancel</a>
                         </div>
                     </fieldset>
                 </form>

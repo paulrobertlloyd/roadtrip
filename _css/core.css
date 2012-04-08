@@ -31,17 +31,64 @@ footer,header,hgroup,menu,nav,section {
     Sections
 ============================================================ */
 body {
-    line-height:1;
+    color:#333;
+    font:100%/1.5 Cambria, Georgia, serif; /* 16px */
+    line-height:;
+    background:#ece6d6 url(_assets/body.png) repeat;
+    width:90%;
+    margin:0 auto;
 }
 
 nav ul {
     list-style:none;
 }
 
+h1 {
+    color:#1c0c06;
+    font-family:sans-serif;
+    font-size:2.5em; /* 40px */
+    line-height:1.2; /* 48px */
+    margin:1em 0; /* 40px 0 */
+}
+h2 {
+    color:#4c3036;
+    font-family:sans-serif;
+    font-size:1.25em; /* 20px */
+    line-height:1.2; /* 24px */
+    margin:2em 0 0; /* 40px 0 0 */
+}
+h3 {
+    color:#d06f1c;
+    font-family:sans-serif;
+    font-size:1em; /* 16px */
+    line-height:1.5; /* 24px */
+    margin:1em 0 -0.5em; /* 20px 0 -8px */
+}
+h4, h5, h6 {
+    color:#222;
+    font-family:sans-serif;
+    font-size:0.875em; /* 14px */
+    line-height:1.1429; /* 16px */
+    margin:1.1429em 0 -0.5714em; /* 16px 0 -8px */
+}
+
 
 /* ============================================================
     Grouping content
 ============================================================ */
+p, pre, ol, ul, dl, figure, figcaption, table, fieldset {
+    margin:0.75em 0; /* 12px 0 */
+    }
+    ul ul,
+    ul ol {
+        margin-top:0;
+    }
+li, dd {
+    margin-left:1.5em;
+}
+dt {
+    font-weight:bold;
+}
 blockquote, q {
     quotes:none;
 }
@@ -55,7 +102,7 @@ hr {
     display:block;
     height:1px;
     border:0;   
-    border-top:1px solid #cccccc;
+    border-top:2px solid #bcb3a6;
     margin:1em 0;
     padding:0;
 }
@@ -65,24 +112,69 @@ hr {
     Text-level semantics
 ============================================================ */
 a {
-    margin:0;
-    padding:0;
+    color:#603;
     font-size:100%;
-    vertical-align:baseline;
-    background:transparent;
+    font-family:sans-serif;
+    font-weight:bold;
+    text-decoration:none;
+}
+a:hover,
+a:focus {
+    color:#825;
+    border-bottom:1px solid #c9a3a9;
 }
 
+:lang(en-gb)>q {
+    quotes:"\201C" "\201D" "\2018" "\2019";
+    }
+    q::before { content:open-quote; }
+    q::after { content:close-quote;
+    }
+
+small {
+    font-size:0.875em; /* 14px */
+    line-height:1.1429; /* 16px */
+    display:inline-block;
+}
+
+abbr {
+    letter-spacing:1px;
+}
+    abbr[title], dfn[title] {
+        border-bottom:1px dotted;
+        cursor:help;
+    }
+code, samp {
+    font:0.875em/90% Menlo,Monaco,'Courier New',Courier,monospace; /* 14px/90% */
+}
+code {
+    color:#369;
+}
+kbd {
+    color:#666;
+    font:normal normal 0.875em/90% sans-serif; /* 14px/90% */
+    background-color:#dcd6c6;
+    margin:0 0.25em; /* 0 4px */
+    border:1px solid #ccc6b6;
+    border-radius:4px;
+    padding:0.1429em 0.4286em; /* 2px 6px */
+}
+sub {
+    font-size:smaller;
+    line-height:90%;
+    vertical-align:sub;
+}
+sup {
+    font-size:smaller;
+    line-height:90%;
+    vertical-align:super;
+}
 
 /* ============================================================
     Edits
 ============================================================ */
-abbr[title], dfn[title] {
-    border-bottom:1px dotted;
-    cursor:help;
-}
-ins {
-    background-color:#ff9;
-    color:#000;
+mark, ins {
+    background-color:#ffc;
     text-decoration:none;
 }
 del {
@@ -105,11 +197,84 @@ table {
     border-collapse:collapse;
     border-spacing:0;
 }
+caption {
+    color:#666;
+    font-family:sans-serif;
+    font-size:0.875em; /* 14px */
+    line-height:1.1429; /* 16px */
+    text-align:left;
+    caption-side:bottom;
+    margin:0.8571em 0; /* 12px 0 */
+}
+td, th {
+    text-align:left;
+    border-bottom:1px solid #bcb3a6;
+    padding:0.25em 1em 0.1875em 0; /* 4px 16px 3px 0 */
+}
+th {
+    color:#222;
+    font-family:sans-serif;
+    font-size:0.875em; /* 14px */
+    line-height:1.1429; /* 16px */
+    border-bottom-color:#bcb3a6;
+    padding:0.5714em 0 0.5em; /* 8px 0 7px */
+}
+td {
+    vertical-align:top;
+}
 
 
 /* ============================================================
     Forms
 ============================================================ */
-input, select {
-    vertical-align:middle;
+.field {
+    font:1em/1.5 sans-serif;
+    border:1px solid #bcb3a6;
+    padding:0.25em;
+    width:50%;
+}
+label {
+    font-weight:bold;
+    line-height:1.5;
+    margin:0.25em 0;
+    display:block;
+    float:left;
+    width:20%;
+}
+label.check {
+    font-weight:normal;
+    margin-left:20%;
+    float:none;
+}
+fieldset div {
+    margin:0.75em 0;
+}
+fieldset abbr[title="Required"] {
+    color:#900;
+    font:normal 1.5em/0.1 sans-serif; /* 20px */
+    border-bottom:0 none;
+}
+fieldset em {
+    color:#666;
+    font-family:sans-serif;
+    font-style:normal;
+    font-size:0.875em; /* 14px */
+    line-height:1.1429; /* 16px */
+    margin:0.25em 0 0.25em 20%;
+    display:block;
+}
+fieldset.options {
+    clear:left;
+}
+fieldset.options ul {
+    list-style:none;
+    margin:0.25em 0 0.25em 20%;
+}
+fieldset.options li {
+    margin-left:0;
+}
+fieldset.options ul label {
+    float:none;
+    width:auto;
+    font-weight:normal;
 }

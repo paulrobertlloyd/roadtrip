@@ -1,0 +1,71 @@
+/* ============================================================
+    Text styles
+============================================================ */
+.datetime,
+.attribution {
+    color:#666;
+    font-family:sans-serif;
+    font-size:0.75em; /* 12px */
+    line-height:1.3334em /* 16px */
+}
+.attribution {
+    letter-spacing:0.0833em;
+    text-transform:uppercase;
+}
+.attribution a {
+    color:#666;
+    font-weight:normal;
+}
+
+
+/* ============================================================
+    Page Navigation
+============================================================ */
+nav.page ul {
+    border-top:0.25em double #bcb3a6;
+    padding-top:0.5em;
+}
+nav.page ul li {
+    display:inline;
+    margin:0;
+    padding:0.25em;
+    border-right:1px solid #bcb3a6;
+}
+nav.page ul li.page-current {
+    background-color:#bcb3a6;
+}
+nav.page ul li.page-prev,
+nav.page ul li.page-next {
+    border:0 none;
+}
+nav.page ul li a {
+    padding: 3px 8px;
+    font-family:sans-serif;
+    font-weight:bold;
+    font-size:0.875em; /* 14px */
+    line-height:1.1429; /* 16px */
+}
+
+
+/* ============================================================
+    Media List
+============================================================ */
+.media {
+    list-style: none;
+}
+.media li {
+    margin:0 0 2em 0;
+}
+.media h3 {
+    margin-top:0.5em;
+}
+
+
+/* ============================================================
+    Thumbnail
+============================================================ */
+.thumbnail {
+    background-color:#1c0c06;
+    outline:0.125em solid #bcb3a6;
+    display:block;
+}
