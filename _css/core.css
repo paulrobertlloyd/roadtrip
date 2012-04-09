@@ -45,25 +45,27 @@ nav ul {
 
 h1 {
     color:#2c1c16;
-    font:bold 2.5em/1.2 'Proxima Nova Bold',sans-serif; /* 40px/48px */
-    margin:1em 0; /* 40px 0 */
+    font:bold 1.75em/1.1429 'Proxima Nova Bold',sans-serif; /* 28px/32px */
+    margin:0.8571em 0 0; /* 24px 0 0 */
 }
 h2 {
     color:#d06f1c;
     font:bold 1.25em/1.2 'Proxima Nova Condensed Bold','Arial Narrow',sans-serif; /* 20px/24px */
     text-transform:uppercase;
-    letter-spacing:0.05em;
     margin:2em 0 0; /* 40px 0 0 */
+    border:solid #bcb3a6;
+    border-width:2px 0 1px;
+    padding:0.6111em 0 0.6667em; /* 11px 0 12px */
 }
 h3 {
-    color:#4c3036;
-    font:bold 1em/1.5 'Proxima Nova Bold',sans-serif; /* 16px/24px */
-    margin:0.75em 0 -0.5em; /* 20px 0 -8px */
+    color:#2c1c16;
+    font:bold 1.125em/1.1111 'Proxima Nova Bold',sans-serif; /* 18px/20px */
+    margin:1.1111em 0 0; /* 20px 0 0 */
 }
 h4, h5, h6 {
-    color:#222;
-    font:bold 0.875em/1.1429 'Proxima Nova Bold',sans-serif; /* 14px/16px */
-    margin:1.1429em 0 -0.5714em; /* 16px 0 -8px */
+    color:#3c2c26;
+    font:bold 1em/1 'Proxima Nova Bold',sans-serif; /* 14px/16px */
+    margin:0.75em 0 -0.25em; /* 12px 0 -4px */
 }
 
 
@@ -147,11 +149,18 @@ small {
 
 abbr {
     letter-spacing:1px;
-}
-    abbr[title], dfn[title] {
-        border-bottom:1px dotted;
+    }
+    abbr[title]:hover {
+        border-bottom:1px dotted rgba(0,0,0,0.2);
         cursor:help;
     }
+time {
+    color:#666;
+    font-family:'Proxima Nova Regular',sans-serif;
+    font-size:0.75em; /* 12px */
+    line-height:1.3334em; /* 16px */
+    text-transform:uppercase;
+}
 code, samp {
     font:0.875em/90% Menlo,Monaco,'Courier New',Courier,monospace; /* 14px/90% */
 }
@@ -194,6 +203,7 @@ del {
     Embedded content
 ============================================================ */
 img {
+    max-width:100%;
     display:block;
 }
 
