@@ -1,24 +1,10 @@
-<!DOCTYPE html>
-<html lang="en-gb">
+<?php
+    $title = 'Styleguide';
 
-<head>
-    <meta charset="utf-8"/>
-    <meta name="author" content="Paul Robert Lloyd"/>
-    <meta name="description" content=""/>
+    include_once('_inc/head.php');
+?>
 
-    <!--css-->
-    <link rel="stylesheet" href="/_css/core.css" type="text/css" media="all"/>
-
-    <!--icons-->
-    <link rel="shortcut icon" href="/_assets/favicon.ico" type="image/x-icon"/>
-    <link rel="apple-touch-icon-precomposed" href="/_assets/apple-touch-icon-precomposed.png" type="image/png"/>
-
-    <!--meta-->
-    <title>Road Trip: Styleguide</title>
-</head>
-
-<body>
-    <div role="document" class="banner">
+    <div role="document" class="document">
 
         <div role="main" class="main">
             <h1>Styleguide</h1>
@@ -440,5 +426,5 @@ p q r s t u v w x y z { | } ~ </samp></pre>
         </div><!--/main-->
 
     </div><!--/document-->
-</body>
-</html>
+
+<?php include_once('_inc/foot.php'); ?>

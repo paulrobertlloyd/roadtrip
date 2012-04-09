@@ -1,19 +1,59 @@
 /* ============================================================
     Banner
 ============================================================ */
+.banner {
+    background:#d06f1c url('_assets/bg-banner.png') repeat-x top left;
+}
 
 
 /* ============================================================
     Document
 ============================================================ */
+.document {
+}
+.document:before, .document:after {
+    content: "";
+    display: table;
+}
+.document:after {
+    clear: both;
+}
+.document {
+    *zoom: 1;
+}
+
+/* Main Content */
+.main {
+    margin-right:3.030303030303%; /* 32/1056 */
+    padding-bottom:4em;
+    width:74.242424242424%; /* 816/1056 */
+    float:left;
+}
+
+/* Complementary Content */
+.complementary {
+    width:22.727272727273%; /* 240/1056 */
+    float:left;
+}
 
 
 /* ============================================================
    Content Info
 ============================================================ */
+.contentinfo {
+    color:#ddd;
+    background:#1c0c06 url('_assets/bg-dark.png') repeat;
+}
+.contentinfo a {
+    color:#fff;
+}
 
 
 /* ============================================================
     Constructs
 ============================================================ */
-
+.container {
+    width:90%;
+    max-width:66em; /* 1056px */
+    margin:0 auto;
+}

@@ -33,9 +33,9 @@ footer,header,hgroup,menu,nav,section {
 body {
     color:#333;
     font:100%/1.5 Cambria, Georgia, serif; /* 16px */
-    line-height:;
-    background:#ece6d6 url(_assets/body.png) repeat;
-    width:90%;
+   -webkit-font-smoothing:antialiased;
+    text-rendering:optimizeLegibility;
+    background:#ece6d6 url(_assets/bg-light.png) repeat;
     margin:0 auto;
 }
 
@@ -44,31 +44,25 @@ nav ul {
 }
 
 h1 {
-    color:#1c0c06;
-    font-family:sans-serif;
-    font-size:2.5em; /* 40px */
-    line-height:1.2; /* 48px */
+    color:#2c1c16;
+    font:bold 2.5em/1.2 'Proxima Nova Bold',sans-serif; /* 40px/48px */
     margin:1em 0; /* 40px 0 */
 }
 h2 {
-    color:#4c3036;
-    font-family:sans-serif;
-    font-size:1.25em; /* 20px */
-    line-height:1.2; /* 24px */
+    color:#d06f1c;
+    font:bold 1.25em/1.2 'Proxima Nova Condensed Bold','Arial Narrow',sans-serif; /* 20px/24px */
+    text-transform:uppercase;
+    letter-spacing:0.05em;
     margin:2em 0 0; /* 40px 0 0 */
 }
 h3 {
-    color:#d06f1c;
-    font-family:sans-serif;
-    font-size:1em; /* 16px */
-    line-height:1.5; /* 24px */
-    margin:1em 0 -0.5em; /* 20px 0 -8px */
+    color:#4c3036;
+    font:bold 1em/1.5 'Proxima Nova Bold',sans-serif; /* 16px/24px */
+    margin:0.75em 0 -0.5em; /* 20px 0 -8px */
 }
 h4, h5, h6 {
     color:#222;
-    font-family:sans-serif;
-    font-size:0.875em; /* 14px */
-    line-height:1.1429; /* 16px */
+    font:bold 0.875em/1.1429 'Proxima Nova Bold',sans-serif; /* 14px/16px */
     margin:1.1429em 0 -0.5714em; /* 16px 0 -8px */
 }
 
@@ -78,24 +72,6 @@ h4, h5, h6 {
 ============================================================ */
 p, pre, ol, ul, dl, figure, figcaption, table, fieldset {
     margin:0.75em 0; /* 12px 0 */
-    }
-    ul ul,
-    ul ol {
-        margin-top:0;
-    }
-li, dd {
-    margin-left:1.5em;
-}
-dt {
-    font-weight:bold;
-}
-blockquote, q {
-    quotes:none;
-}
-blockquote:before, blockquote:after,
-q:before, q:after {
-    content:'';
-    content:none;
 }
 
 hr {
@@ -107,6 +83,38 @@ hr {
     padding:0;
 }
 
+blockquote, q {
+    quotes:none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content:'';
+    content:none;
+}
+
+ul ul,
+ul ol {
+    margin-top:0;
+}
+li, dd {
+    margin-left:1.5em;
+}
+
+dt {
+    font-family:'Proxima Nova Bold',sans-serif;
+    font-weight:bold;
+}
+
+figcaption, caption {
+    color:#666;
+    font-family:'Proxima Nova Regular',sans-serif;
+    font-size:0.875em; /* 14px */
+    line-height:1.1429; /* 16px */
+    text-align:left;
+    caption-side:bottom;
+    margin:0.8571em 0; /* 12px 0 */
+}
+
 
 /* ============================================================
     Text-level semantics
@@ -114,7 +122,7 @@ hr {
 a {
     color:#603;
     font-size:100%;
-    font-family:sans-serif;
+    font-family:'Proxima Nova Bold',sans-serif;
     font-weight:bold;
     text-decoration:none;
 }
@@ -197,15 +205,6 @@ table {
     border-collapse:collapse;
     border-spacing:0;
 }
-caption {
-    color:#666;
-    font-family:sans-serif;
-    font-size:0.875em; /* 14px */
-    line-height:1.1429; /* 16px */
-    text-align:left;
-    caption-side:bottom;
-    margin:0.8571em 0; /* 12px 0 */
-}
 td, th {
     text-align:left;
     border-bottom:1px solid #bcb3a6;
@@ -213,9 +212,7 @@ td, th {
 }
 th {
     color:#222;
-    font-family:sans-serif;
-    font-size:0.875em; /* 14px */
-    line-height:1.1429; /* 16px */
+    font:bold 0.875em/1.1429 'Proxima Nova Bold',sans-serif; /* 14px/16px */
     border-bottom-color:#bcb3a6;
     padding:0.5714em 0 0.5em; /* 8px 0 7px */
 }

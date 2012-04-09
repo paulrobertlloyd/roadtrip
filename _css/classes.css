@@ -4,7 +4,7 @@
 .datetime,
 .attribution {
     color:#666;
-    font-family:sans-serif;
+    font-family:'Proxima Nova Regular',sans-serif;
     font-size:0.75em; /* 12px */
     line-height:1.3334em /* 16px */
 }
@@ -19,26 +19,27 @@
 
 
 /* ============================================================
-    Page Navigation
+    Pagination
 ============================================================ */
-nav.page ul {
+.pagination {
     border-top:0.25em double #bcb3a6;
     padding-top:0.5em;
+    clear:left;
 }
-nav.page ul li {
+.pagination li {
     display:inline;
     margin:0;
     padding:0.25em;
     border-right:1px solid #bcb3a6;
 }
-nav.page ul li.page-current {
+.pagination li.current {
     background-color:#bcb3a6;
 }
-nav.page ul li.page-prev,
-nav.page ul li.page-next {
+.pagination li.prev,
+.pagination li.next {
     border:0 none;
 }
-nav.page ul li a {
+.pagination li a {
     padding: 3px 8px;
     font-family:sans-serif;
     font-weight:bold;
@@ -48,16 +49,74 @@ nav.page ul li a {
 
 
 /* ============================================================
+    vCard
+============================================================ */
+.vcard {
+    list-style:none;
+    margin:0.75em 0;
+    overflow:hidden;
+}
+.vcard h3 {
+    margin-top:0;
+}
+.vcard p {
+    line-height:1.25;
+}
+.vcard a {
+    font-family:'Proxima Nova Regular',sans-serif;
+    font-weight:normal;
+}
+.vcard .photo {
+    margin-right:0.5em;
+    border-radius:100%;
+    float:left;
+}
+
+
+/* ============================================================
+    Day
+============================================================ */
+.day {
+    background:#1c0c06 url('_assets/bg-dark.png') repeat;
+    outline:0.125em solid #bcb3a6;
+    width:30.612244897959%; /* 240/784 */
+    margin:0 4.081632653061% 2em 0; /* 0 32/784 32px 0 */
+    float:left;
+}
+
+
+/* ============================================================
     Media List
 ============================================================ */
 .media {
-    list-style: none;
+    list-style:none;
+    clear:both;
 }
 .media li {
-    margin:0 0 2em 0;
+    width:30.612244897959%; /* 240/784 */
+    margin:0 4.081632653061% 2em 0; /* 0 32/784 32px 0 */
+    float:left;
+}
+.media li:nth-child(3n) {
+    margin-right:0;
+}
+.media img {
+    max-width:100%;
 }
 .media h3 {
     margin-top:0.5em;
+}
+
+
+/* ============================================================
+    Media Item
+============================================================ */
+.mediaitem {
+    background:#1c0c06 url('_assets/bg-dark.png') repeat;
+    padding:1em 0;
+}
+.mediaitem .object {
+    margin:0 auto;
 }
 
 
