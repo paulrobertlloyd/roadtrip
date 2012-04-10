@@ -48,6 +48,13 @@ h1 {
     font:bold 1.75em/1.1429 'Proxima Nova Bold',sans-serif; /* 28px/32px */
     margin:0.8571em 0 0; /* 24px 0 0 */
 }
+@media screen and (min-width:25em) {
+    h1 {
+        font-size:2.5em; /* 40px */
+        line-height:1.2; /* 48px */
+        margin:0.5em 0 0; /* 20px 0 0 */
+    }
+}
 h2 {
     color:#d06f1c;
     font:bold 1.25em/1.2 'Proxima Nova Condensed Bold','Arial Narrow',sans-serif; /* 20px/24px */
@@ -144,7 +151,6 @@ a:focus {
 small {
     font-size:0.875em; /* 14px */
     line-height:1.1429; /* 16px */
-    display:inline-block;
 }
 
 abbr {

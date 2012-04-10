@@ -25,7 +25,7 @@
     <!--css-->
     <link rel="stylesheet" href="/_css/core.css" type="text/css" media="all"/>
     <link rel="stylesheet" href="/_css/classes.css" type="text/css" media="all"/>
-    <!--link rel="stylesheet" href="/_css/layout.css" type="text/css" media="all"/-->
+    <link rel="stylesheet" href="/_css/layout.css" type="text/css" media="all"/>
 
     <!--icons-->
     <link rel="shortcut icon" href="/_assets/favicon.ico" type="image/x-icon"/>

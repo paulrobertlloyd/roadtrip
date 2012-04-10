@@ -10,7 +10,7 @@
         </figure>
 
         <figure class="media-frame">
-            <iframe class="object" src="http://player.vimeo.com/video/18560562?color=d06f1c&#38;portrait=0&#38;title=0&#38;byline=0" width="800" frameborder="0"></iframe>
+            <iframe class="object" src="http://player.vimeo.com/video/18560562?color=d06f1c&#38;portrait=0&#38;title=0&#38;byline=0" width="800"></iframe>
         </figure>
 
         <h1>Arriving in Las Vagas</h1>
@@ -19,10 +19,11 @@
         <div role="main" class="main">
             <h2>Second-level heading</h2>
             <h3>Third-level heading</h3>
+            <p class="lede">The sights and sounds as we arrive in this gleaming city in the desert.</p>
             <p>The <strong>Las Vegas Strip</strong> is an approximately 4.2-mile (6.8 km) stretch of Las Vegas Boulevard in Clark County, Nevada; adjacent to, but outside the city limits of Las Vegas proper. The Strip lies within the unincorporated townships of Paradise and Winchester. Most of the Strip has been designated an All-American Road.</p>
             <p>Many of the largest hotel, casino and resort properties in the world are located on the Las Vegas Strip. Nineteen of the world&#8217;s 25 largest hotels by room count are on the Strip, with a total of over 67,000 rooms. One of the 19, the LVH - Las Vegas Hotel &#38; Casino, (Formerly the Las Vegas Hilton), is an &#8216;off-Strip&#8217; property but is located less than 0.5 miles (0.8 km) east of the Strip.</p>
             <p>One of the most visible aspects of Las Vegas&#8217; cityscape is its use of dramatic architecture. The modernisation of hotels, casinos, restaurants, and residential high-rises on the Strip has established the city as one of the most popular destinations for tourists.</p>
-            <p class="meta"><a href="#" class="wikipedia">Text from Wikipedia</a>. Some rights reserved.</p>
+            <p class="meta"><a href="#">Text from Wikipedia</a>. Some rights reserved.</p>
 
             <h2>What is this site all about?</h2>
             <p>On March 12 2012, three web developers left the throngs of SXSW in Austin, and headed west towards California. Covering 5 states over 4 nights and 3 days, they arrived in San Francisco on March 15. But really, this is just some placeholder content to demonstrate how one might go about designing a responsive website.</p>
@@ -159,11 +160,13 @@
                 </li>
             </ol>
 
-            <p class="vcard">
-                <img class="photo" src="/_assets/traveller-paul.png" alt="" width="64" height="64"/>
-                Taken by <a class="url fn n" href="#">Paul Robert Lloyd</a><br/>
-                <time>13 March 2012 at 10:04PM</time>
-            </p>
+            <div class="vcard">
+                <p>
+                    <img class="photo" src="/_assets/traveller-paul.png" alt="" width="64" height="64"/>
+                    Taken by <a class="url fn n" href="#">Paul</a><br/>
+                    <time>13 March 2012 at 10:04PM</time>
+                </p>
+            </div>
 
             <figure>
                 <div id="map">
@@ -176,8 +179,8 @@
 
             <nav>
                 <ul role="navigation" class="items">
-                    <li class="item-prev"><a href="#">&#8592; Previous Location</a></li>
-                    <li class="item-next"><a href="#">Next Location &#8594;</a></li>
+                    <li class="item-prev"><a href="#" title="Previous Location">&#8592; Previous</a></li>
+                    <li class="item-next"><a href="#" title="Next Location">Next &#8594;</a></li>
                 </ul>
             </nav>
 
@@ -188,7 +191,6 @@
                 <li><a href="#">3</a></li>
                 <li><a href="#">4</a></li>
                 <li><a href="#">5</a></li>
-                <li><a href="#">6</a></li>
                 <li class="page-next"><a rel="next" href="#">Next &#8594;</a></li>
             </ul>
         </div><!--/main-->
