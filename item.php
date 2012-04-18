@@ -6,8 +6,10 @@
 ?>
 
         <figure class="media-frame">
-            <img class="object" src="http://dummyimage.com/800x536/ccc/eee.png" alt="Arriving in Las Vagas"/>
-        </figure>
+            <div class="media-object-wrapper">
+                <iframe class="media-object" src="http://player.vimeo.com/video/40493662?color=d06f1c&#38;portrait=0&#38;title=0&#38;byline=0"></iframe>
+            </div>
+        </figure><!--/.media-frame-->
 
         <header>
             <h1>Arriving in Las Vagas</h1>
@@ -32,7 +34,7 @@
                 </div>
                 <figure>
                     <div id="map">
-                        <img src="http://staticmaps.cloudmade.com/502dc50b71894905ac5b598495c8cc51/staticmap?styleid=997&#38;size=288x160&#38;center=36.120833,-115.172222&#38;zoom=15&#38;marker=url:http://beta.paulrobertlloyd.com/_js/lib/leaflet/images/marker.png|36.120833,-115.172222"/>
+                        <img src="_assets/staticmap.png"/>
                     </div>
                     <figcaption>
                         <p>Taken on the Las Vegas Strip, Las Vegas, Nevada.</p>

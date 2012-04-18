@@ -113,7 +113,7 @@
             <h2>What is this site all about?</h2>
             <p>On March 12 2012, three web developers left the throngs of SXSW in Austin, and headed west towards California. Covering 5 states over 4 nights and 3 days, they arrived in San Francisco on March 15. But really, this is just some placeholder content to demonstrate how one might go about designing a responsive website.</p>
 
-            <h3>The Travellers</h3>
+            <h3>Journeymen</h3>
             <ul class="vcards">
                 <li class="vcard">
                     <img class="photo" src="/_assets/traveller-paul.png" alt="" width="64" height="64"/>

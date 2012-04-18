@@ -21,10 +21,11 @@
             s.appendChild(wf);
         })();
     </script>
+    <script src="_js/responsive-enhance.js"></script>
 
     <!--css-->
-    <link rel="stylesheet" href="/_css/core.css" type="text/css" media="all"/>
-    <link rel="stylesheet" href="/_css/classes.css" type="text/css" media="all"/>
+    <link rel="stylesheet" href="/_css/base.css" type="text/css" media="all"/>
+    <link rel="stylesheet" href="/_css/patterns.css" type="text/css" media="all"/>
     <link rel="stylesheet" href="/_css/layout.css" type="text/css" media="all"/>
 
     <!--icons-->

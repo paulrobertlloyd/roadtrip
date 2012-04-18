@@ -4,7 +4,7 @@
 .lede {
     color:#222;
     font:normal 1em/1.25 'Proxima Nova Regular',sans-serif; /* 16px/20px */
-    margin:0;
+    margin:0.5em 0;
 }
 .meta {
     color:#666;
@@ -146,10 +146,23 @@
     padding:1em 5%; /* 16px 16/320 */
     margin:0 -5.555555555556%; /* 0 16/288 */
 }
-.media-frame .object {
+img.media-object {
     margin:0 auto;
-    display:block;
+    width:100%;
+    max-width:50em; /* 800px */
 }
+.media-object-wrapper {
+    margin:0 auto;
+    padding-bottom:56.25%;
+    width:100%;
+    height:0;
+    position:relative;
+    }
+    .media-object-wrapper iframe.media-object {
+        width:100%;
+        height:100%;
+        position:absolute;
+    }
 
 
 /* ============================================================
@@ -169,7 +182,7 @@
    -o-box-shadow:1px 1px 0 rgba(188,179,166,0.5);
     box-shadow:1px 1px 0 rgba(188,179,166,0.5);
     width:47.916666666667%; /* 138/288 */
-    margin:0 4.166666666667% 1.1429em 0; /* 0 12/288 16px 0 */
+    margin:0 4.166666666667% 4.166666666667% 0; /* 0 12/288 12/288 0 */
     float:left;
     }
     .media-item:nth-child(2n) {
@@ -203,7 +216,7 @@
 @media screen and (min-width:35em) {
 .media-item {
     width:30.612244897959%; /* 240/784 */
-    margin:0 4.081632653061% 1.1429em 0; /* 0 32/784 16px 0 */
+    margin:0 4.081632653061% 4.081632653061% 0; /* 0 32/784 32/784 0 */
     }
     .media-item:nth-child(2n) {
         margin-right:4.081632653061%;
