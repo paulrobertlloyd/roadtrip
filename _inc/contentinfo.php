@@ -10,7 +10,7 @@
     <div role="contentinfo" class="contentinfo">
         <footer>
             <img src="_assets/logo-prl.png" width="48" height="72" alt=""/>
-            <p class="copyright">&#169; 2012 <a href="http://paulrobertlloyd.com/">Paul Robert Lloyd</a></p>
+            <p class="copyright">&#169; 2012 <a href="http://paulrobertlloyd.com/">Paul Robert Lloyd</a>. Photos &#169; 2012 <a href="http://www.flickr.com/photos/benpbarnett/">Ben Barnett</a>.</p>
             <p class="license"><small>Code licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/2.0/uk/" title="Creative Commons Attribution-Non-Commercial-Share Alike 2.0 UK: England &#38; Wales">Creative Commons BY-NC-SA license</a>.</small></p>
         </footer>
     </div><!--/.contentinfo-->

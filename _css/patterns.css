@@ -146,15 +146,14 @@
     padding:1em 5%; /* 16px 16/320 */
     margin:0 -5.555555555556%; /* 0 16/288 */
 }
-img.media-object {
+img.media-object,
+.media-object-wrapper {
     margin:0 auto;
     width:100%;
     max-width:50em; /* 800px */
 }
 .media-object-wrapper {
-    margin:0 auto;
     padding-bottom:56.25%;
-    width:100%;
     height:0;
     position:relative;
     }
@@ -163,6 +162,11 @@ img.media-object {
         height:100%;
         position:absolute;
     }
+@media screen and (min-width:880px) {
+    .media-object-wrapper {
+        padding-bottom:28.125em; /* 450px */
+    }
+}
 
 
 /* ============================================================
@@ -214,24 +218,36 @@ img.media-object {
         border:0 none;
     }
 @media screen and (min-width:35em) {
-.media-item {
-    width:30.612244897959%; /* 240/784 */
-    margin:0 4.081632653061% 4.081632653061% 0; /* 0 32/784 32/784 0 */
-    }
-    .media-item:nth-child(2n) {
-        margin-right:4.081632653061%;
-    }
-    .media-item:nth-child(3n) {
-        margin-right:0;
-    }
-    .media-item h2.title {
-        font-size:1em;
-        padding:0 0.5em; /* 0 8px */
-    }
-    .media-item time {
-        font-weight:normal;
-        margin-left:0.75em; /* 8px */
-    }
+    .media-item {
+        width:30.612244897959%; /* 240/784 */
+        margin:0 4.081632653061% 4.081632653061% 0; /* 0 32/784 32/784 0 */
+        }
+        .media-item:nth-child(2n) {
+            margin-right:4.081632653061%;
+        }
+        .media-item:nth-child(3n) {
+            margin-right:0;
+        }
+        .media-item h2.title {
+            font-size:1em;
+            padding:0 0.5em; /* 0 8px */
+        }
+        .media-item time {
+            font-weight:normal;
+            margin-left:0.75em; /* 8px */
+        }
+}
+@media screen and (min-width:73.5em) {
+    .media-item {
+        width:21.938775510204%; /* 172/784 */
+        }
+        .media-item:nth-child(2n),
+        .media-item:nth-child(3n) {
+            margin-right:4.081632653061%;
+        }
+        .media-item:nth-child(4n) {
+            margin-right:0;
+        }
 }
 
 

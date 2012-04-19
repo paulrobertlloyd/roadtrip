@@ -48,7 +48,7 @@ h1 {
     font:bold 1.75em/1.1429 'Proxima Nova Bold',sans-serif; /* 28px/32px */
     margin:0.8571em 0 0; /* 24px 0 0 */
 }
-@media screen and (min-width:25em) {
+@media screen and (min-width:35em) {
     h1 {
         font-size:2.5em; /* 40px */
         line-height:1.2; /* 48px */
@@ -112,6 +112,10 @@ li, dd {
 dt {
     font-family:'Proxima Nova Bold',sans-serif;
     font-weight:bold;
+}
+
+figure {
+    margin-top:2em;
 }
 
 figcaption, caption {

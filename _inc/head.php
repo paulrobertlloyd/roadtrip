@@ -5,6 +5,7 @@
     <meta charset="utf-8"/>
     <meta name="author" content="Paul Robert Lloyd"/>
     <meta name="description" content=""/>
+    <meta name="viewport" content="initial-scale=1.0, width=device-width"/>
 
     <!--fonts-->
     <noscript>

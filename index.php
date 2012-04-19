@@ -5,95 +5,95 @@
     include_once('_inc/banner.php');
 ?>
 
-        <header>
+        <header class="day">
             <h1>Day 1</h1>
             <p class="meta">Austin, <abbr title="Texas">TX</abbr> - Albuquerque, <abbr title="New Mexico">NM</abbr></p>
-        </header>
+        </header><!--/.day-->
 
         <div role="main" class="main">
             <ol class="media">
                 <li class="media-item">
-                    <a href="#">
-                        <img src="http://dummyimage.com/240x160/ccc/eee.png" alt="Title of media item"/>
-                        <h2 class="title">Title of media item</h2>
-                        <time>10:04PM</time>
+                    <a href="item.php">
+                        <img src="_assets/photos/1.jpg" alt=""/>
+                        <h2 class="title">The first overtake</h2>
+                        <time>11:04 AM</time>
+                    </a>
+                </li>
+                <li class="media-item">
+                    <a href="item.php">
+                        <img src="_assets/photos/2.jpg" alt=""/>
+                        <h2 class="title">Brady city hall</h2>
+                        <time>12:15 PM</time>
+                    </a>
+                </li>
+                <li class="media-item">
+                    <a href="item.php">
+                        <img src="_assets/photos/3.jpg" alt=""/>
+                        <h2 class="title">New Mexican Ranch</h2>
+                        <time>15:04 PM</time>
+                    </a>
+                </li>
+                <li class="media-item">
+                    <a href="item.php">
+                        <img src="_assets/photos/4.jpg" alt=""/>
+                        <h2 class="title">Fishin&#8217;</h2>
+                        <time>14:27 PM</time>
                     </a>
                 </li>
                 <li class="media-item">
                     <a href="#">
-                        <img src="http://dummyimage.com/240x160/ccc/eee.png" alt="Title of media item"/>
-                        <h2 class="title">Title of media item</h2>
-                        <time>10:04PM</time>
+                        <img src="_assets/photos/5.jpg" alt=""/>
+                        <h2 class="title">Every cloud</h2>
+                        <time>14:32 PM</time>
                     </a>
                 </li>
                 <li class="media-item">
                     <a href="#">
-                        <img src="http://dummyimage.com/240x160/ccc/eee.png" alt="Title of media item"/>
-                        <h2 class="title">Title of media item</h2>
-                        <time>10:04PM</time>
+                        <img src="_assets/photos/6.jpg" alt=""/>
+                        <h2 class="title">Road to nowhere</h2>
+                        <time>15:21 PM</time>
                     </a>
                 </li>
                 <li class="media-item">
                     <a href="#">
-                        <img src="http://dummyimage.com/240x160/ccc/eee.png" alt="Title of media item"/>
-                        <h2 class="title">Title of media item</h2>
-                        <time>10:04PM</time>
+                        <img src="_assets/photos/7.jpg" alt=""/>
+                        <h2 class="title">Haulage</h2>
+                        <time>16:01 PM</time>
                     </a>
                 </li>
                 <li class="media-item">
                     <a href="#">
-                        <img src="http://dummyimage.com/240x160/ccc/eee.png" alt="Title of media item"/>
-                        <h2 class="title">Title of media item</h2>
-                        <time>10:04PM</time>
+                        <img src="_assets/photos/8.jpg" alt=""/>
+                        <h2 class="title">Western Wear</h2>
+                        <time>16:22 PM</time>
                     </a>
                 </li>
                 <li class="media-item">
                     <a href="#">
-                        <img src="http://dummyimage.com/240x160/ccc/eee.png" alt="Title of media item"/>
-                        <h2 class="title">Title of media item</h2>
-                        <time>10:04PM</time>
+                        <img src="_assets/photos/9.jpg" alt=""/>
+                        <h2 class="title">Wrong turn</h2>
+                        <time>17:43 PM</time>
                     </a>
                 </li>
                 <li class="media-item">
                     <a href="#">
-                        <img src="http://dummyimage.com/240x160/ccc/eee.png" alt="Title of media item"/>
-                        <h2 class="title">Title of media item</h2>
-                        <time>10:04PM</time>
+                        <img src="_assets/photos/10.jpg" alt=""/>
+                        <h2 class="title">Roswell</h2>
+                        <time>17:46 PM</time>
                     </a>
                 </li>
                 <li class="media-item">
                     <a href="#">
-                        <img src="http://dummyimage.com/240x160/ccc/eee.png" alt="Title of media item"/>
-                        <h2 class="title">Title of media item</h2>
-                        <time>10:04PM</time>
+                        <img src="_assets/photos/11.jpg" alt=""/>
+                        <h2 class="title">Drive Thru</h2>
+                        <time>20:04 PM</time>
                     </a>
                 </li>
                 <li class="media-item">
                     <a href="#">
-                        <img src="http://dummyimage.com/240x160/ccc/eee.png" alt="Title of media item"/>
-                        <h2 class="title">Title of media item</h2>
-                        <time>10:04PM</time>
-                    </a>
-                </li>
-                <li class="media-item">
-                    <a href="#">
-                        <img src="http://dummyimage.com/240x160/ccc/eee.png" alt="Title of media item"/>
-                        <h2 class="title">Title of media item</h2>
-                        <time>10:04PM</time>
-                    </a>
-                </li>
-                <li class="media-item">
-                    <a href="#">
-                        <img src="http://dummyimage.com/240x160/ccc/eee.png" alt="Title of media item"/>
-                        <h2 class="title">Title of media item</h2>
-                        <time>10:04PM</time>
-                    </a>
-                </li>
-                <li class="media-item">
-                    <a href="#">
-                        <img src="http://dummyimage.com/240x160/ccc/eee.png" alt="Title of media item"/>
-                        <h2 class="title">Title of media item</h2>
-                        <time>10:04PM</time>
+                        <img src="_assets/photos/12.jpg" alt=""/>
+                        <h2 class="title">Roswell city hall</h2>
+                        <time>21:22 PM</time>
                     </a>
                 </li>
             </ol>
