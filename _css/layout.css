@@ -38,11 +38,14 @@ body {
     height:1.75em;
 }
 .banner a.skip {
-    background:url('_assets/skip.png') no-repeat;
+    background:url('_assets/sprite.png') no-repeat 0 0;
     width:2em;
     height:1.75em;
     float:right;
-}
+    }
+    .svg .banner a.skip {
+        background-image:url('_assets/sprite.svg');
+    }
 @media screen and (min-width:55em) and (min-height:40em) {
     .banner {
         border-width:4px 0 8px;

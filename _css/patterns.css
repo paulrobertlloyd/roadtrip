@@ -26,13 +26,16 @@
 @media screen and (min-width:35em) {
     .mile {
         font-size:1em;
-        background:url('_assets/sprite.png') no-repeat 0 0;
+        background:url('_assets/sprite.png') no-repeat 0 -4em;
         margin:0;
         padding:0.375em 0;
         width:3.5em;
         height:2.75em;
         display:block;
-    }
+        }
+        .svg .mile {
+            background-image:url('_assets/sprite.svg');
+        }
     .mile .unit {
         color:#2c1c16;
         font-size:0.625em; /* 10px */
@@ -147,13 +150,16 @@
     .items li a {
         font-size:1em;
         text-indent:-999em;
-        background:url('_assets/sprite.png') no-repeat 0 -4em;
+        background:url('_assets/sprite.png') no-repeat 0 -8em;
         padding:0;
         display:block;
         height:4em;
         width:4em;
         opacity:0.2;
-    }
+        }
+        .svg .items li a {
+            background-image:url('_assets/sprite.svg');
+        }
     .items li a:hover {
         opacity:0.4;
     }
@@ -161,7 +167,7 @@
         right:0;
     }
     .items li.item-next a {
-        background-position:0 -8em;
+        background-position:0 -12em;
     }
 }
 @media screen
