@@ -8,9 +8,7 @@
 }
 .meta {
     color:#666;
-    font-family:'Proxima Nova Regular',sans-serif;
-    font-size:0.75em; /* 12px */
-    line-height:1.3334em /* 16px */
+    font:normal 0.75em/1.3334 'Proxima Nova Regular',sans-serif; /* 12px/16px */
     letter-spacing:0.0833em;
     text-transform:uppercase;
     }
@@ -19,6 +17,48 @@
     }
 .meta a {
     color:#666;
+}
+
+
+/* ============================================================
+    Mile marker
+============================================================ */
+@media screen and (min-width:35em) {
+    .mile {
+        font-size:1em;
+        background:url('_assets/sprite.png') no-repeat 0 0;
+        margin:0;
+        padding:0.375em 0;
+        width:3.5em;
+        height:2.75em;
+        display:block;
+    }
+    .mile .unit {
+        color:#2c1c16;
+        font-size:0.625em; /* 10px */
+        line-height:1.6em; /* 16px */
+        letter-spacing:0.1em;
+        text-align:center;
+        display:block;
+    }
+    .mile .value {
+        color:#f93;
+        font:bold 0.875em/1.2857 'Proxima Nova Bold',sans-serif; /* 14px/18px */
+        text-align:center;
+        display:block;
+    }
+    .location {
+        position:relative;
+        margin-bottom:1.5em;
+    }
+    .location .title {
+        margin-left:1.75em;
+    }
+    .location .mile {
+        position:absolute;
+        top:0;
+        left:0;
+    }
 }
 
 
@@ -93,6 +133,43 @@
 .items li.item-next a {
     padding-right:0;
 }
+@media screen and (min-width:64em) {
+    .items {
+        position:absolute;
+        width:95%;
+        margin:0 -2.5%;
+        top:26em;
+    }
+    .items li {
+        padding:0;
+        left:0;
+    }
+    .items li a {
+        font-size:1em;
+        text-indent:-999em;
+        background:url('_assets/sprite.png') no-repeat 0 -4em;
+        padding:0;
+        display:block;
+        height:4em;
+        width:4em;
+        opacity:0.2;
+    }
+    .items li a:hover {
+        opacity:0.4;
+    }
+    .items li.item-next {
+        right:0;
+    }
+    .items li.item-next a {
+        background-position:0 -8em;
+    }
+}
+@media screen
+and (max-height:40em) {
+    .items {
+        top:17em;
+    }
+}
 
 
 /* ============================================================
@@ -129,7 +206,7 @@
     Links
 ============================================================ */
 .link {
-    list-style-image: url(_assets/bullet-star.png);
+    list-style-image:url(_assets/bullet-star.png);
 }
 
 
@@ -254,6 +331,6 @@ img.media-object,
 /* ============================================================
     Map
 ============================================================ */
-#map img {
+img.map {
     outline:2px solid #bcb3a6;
 }

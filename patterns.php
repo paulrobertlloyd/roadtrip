@@ -16,8 +16,10 @@
             </div>
         </figure><!--/.media-frame-->
 
-        <h1>Arriving in Las Vagas</h1>
-        <p class="meta mile">Mile 1456</p>
+        <header class="location">
+            <h1 class="title">Arriving in Las Vegas</h1>
+            <p class="meta mile"><span class="unit">Mile</span> <span class="value">1456</span></p>
+        </header>
 
         <h2>Second-level heading</h2>
         <h3>Third-level heading</h3>
@@ -171,9 +173,7 @@
         </div><!--/.vcard-->
 
         <figure>
-            <div id="map">
-                <img src="_assets/staticmap.png"/>
-            </div>
+            <img class="map" src="_assets/staticmap.png"/>
             <figcaption>
                 <p>Taken on the Las Vegas Strip, Las Vegas, Nevada.</p>
             </figcaption>
