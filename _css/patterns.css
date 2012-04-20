@@ -269,9 +269,15 @@ img.media-object,
         height:100%;
         position:absolute;
     }
-@media screen and (min-width:880px) {
+@media screen and (min-width:55em) { /* 880px */
     .media-object-wrapper {
         padding-bottom:28.125em; /* 450px */
+    }
+}
+@media screen and (max-height:35em) { /* 560px */
+    .media-object-wrapper {
+        width:60%;
+        padding-bottom:33.75%;
     }
 }
 
