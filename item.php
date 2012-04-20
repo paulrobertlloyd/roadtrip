@@ -27,7 +27,7 @@
                 </nav>
                 <div class="vcard">
                     <p>
-                        <img class="photo" src="/_assets/traveller-paul.png" alt="" width="64" height="64"/>
+                        <img class="photo" src="_assets/traveller-paul.png" alt="" width="64" height="64"/>
                         Taken by <a class="url fn n" href="#">Paul</a><br/>
                         <time>13 March 2012 at 10:04PM</time>
                     </p>

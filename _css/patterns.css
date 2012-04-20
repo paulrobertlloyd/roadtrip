@@ -21,7 +21,7 @@
 
 
 /* ============================================================
-    Mile marker
+    Location header
 ============================================================ */
 @media screen and (min-width:35em) {
     .mile {
@@ -61,6 +61,30 @@
         position:absolute;
         top:0;
         left:0;
+    }
+}
+
+
+/* ============================================================
+    Day header
+============================================================ */
+@media screen and (min-width:35em) {
+    .day {
+        margin-bottom:1.5em;
+        overflow:hidden;
+    }
+    .day h1 {
+        white-space:nowrap;
+        float:left;
+    }
+    .day .meta {
+        color:#2c1c16;
+        font-size:0.875em; /* 14px */
+        line-height:1.1429em; /* 16px */
+        letter-spacing:0.125em; /* 2px */
+        opacity:0.8;
+        margin:3.25em 0 0 1em; /* 52px 0 0 16px */
+        float:left;
     }
 }
 
