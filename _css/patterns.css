@@ -274,7 +274,7 @@ img.media-object,
         padding-bottom:28.125em; /* 450px */
     }
 }
-@media screen and (max-height:35em) { /* 560px */
+@media screen and (max-height:35em) and (orientation:landscape) { /* 560px */
     .media-object-wrapper {
         width:60%;
         padding-bottom:33.75%;
