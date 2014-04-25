@@ -28,6 +28,8 @@ We'll start with our homepage. From the desktop-orientated design, we can see th
 
 ![Our homepage is composed of a header, main navigation and footer, with the content area divided into two columns: the main column taking up three quarters of the width while the complementary column takes up the remaining quarter.](1.jpg)
 
+▲ _Our homepage is composed of a header, main navigation and footer, with the content area divided into two columns: the main column taking up three quarters of the width while the complementary column takes up the remaining quarter._
+
 Taking measurements from our design, we can describe the document area in CSS as follows:
 
 	.document {
@@ -98,7 +100,9 @@ As you can see, media queries can help us build fairly compelling experiences �
 ## One more thing…
 Even though we've included media queries in our CSS, if we view our site on a mobile device, you'll notice that our site is still being rendered as if the display was wider than 768px.
 
-![Our website doesn't appear responsive, even though we've added media queries](2.jpg)
+![Our website doesn't appear responsive, even though we've added media queries.](2.jpg)
+
+▲ _Our website doesn't appear responsive, even though we've added media queries._
 
 To understand why this is happening, we need to take a brief history lesson.
 
@@ -111,6 +115,8 @@ But the iPhone was introduced before the advent of responsive design. Now that a
 This tells viewport-aware browsers that a website shouldn't be scaled down, and that the width of the browser window should be treated the same as the overall device width. Once we've added this line, our website will appear with the intended layout:
 
 ![The correct layout appears once we've added the viewport meta element.](3.jpg)
+
+▲ _The correct layout appears once we've added the viewport meta element._
 
 ## Choosing breakpoints
 Let's return to our media query:
@@ -213,5 +219,7 @@ We can follow a similar approach for the other parts of our design, swapping in 
 * [View our responsive media item page](demo/media-item.html)
 
 And there we have it! We've built a responsive website – and with a day to spare! Well, not quite. Flexible layouts, images and media queries is only the start of the responsive design process.
+
+* * *
 
 **Tomorrow:** In the final part of this tutorial, we'll go beyond responsive web design, and look at [how we can build truly responsive websites](../5-going-further/content.md).
