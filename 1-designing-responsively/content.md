@@ -41,6 +41,8 @@ Not only is this an important page on the site, but it probably includes enough 
 
 ![For our media gallery example, I started by looking at the requirements of the media item page. Once I was happy with the grid, type and visual treatment, I moved on to the design of the homepage.](1.jpg)
 
+_For our media gallery example, I started by looking at the requirements of the media item page. Once I was happy with the grid, type and visual treatment, I moved on to the design of the homepage._
+
 One useful way to stress test a design is to take such a page and adapt it for a narrower (~320px wide) screen. You'll likely discover that some aspects of the design will need to be rethought for them to work at this width. Here are some examples:
 
 * **Typography:** Large headings can work well on wider layouts, but on smaller screens they can take up a lot of vertical space and therefore require additional scrolling. As line lengths alter, you should consider line heights and other typographic treatments too.
@@ -52,6 +54,8 @@ One useful way to stress test a design is to take such a page and adapt it for a
 * **Superfluous content:** Is some content not required? Does other content only need to be shown in certain scenarios? I don't advocate hiding content based on what device a user happens to be using, but techniques like conditional loading (which we'll look at later this week) can help us serve up smaller pages that only load complementary content when required.
 
 ![Creating a narrower layout helps us stress test a design.](2.jpg)
+
+_Creating a narrower layout helps us stress test a design._
 
 Designing two contrasting layouts reinforces the idea that a design will adapt, while ironing out potential gotchas early on. While this sounds like a doubling up of work, bear in mind that we are not designing every page to pixel-perfect precision. Instead, we're focusing on building a scalable design language – one that will evolve as we start to implement it in code, and one that is based around individual modules and components.
 
@@ -65,6 +69,8 @@ Unsurprisingly, for an industry that has historically treated the web like print
 * **Mobilify design game:** This exercise can work really well during collaborative design workshops. In this exercise, everyone writes down on Post-it notes the elements that may appear on a certain page. These are then stuck to the wall in order of importance, as if they were appearing linearised on a mobile phone. The resulting discussion may generate some surprising conclusions. For example, you may realise that navigation is not the most important component on the page. This could follow through to the design, where a skip link at the top of the page links to the navigation in the footer.
 
 ![In thinking about the design of the media item page, I used the mobilify design game to think about what elements needed to be shown and their priority on the page.](3.jpg)
+
+_In thinking about the design of the media item page, I used the mobilify design game to think about what elements needed to be shown and their priority on the page._
 
 There's still room for the tools we're already using of course, but when designing a website in broad terms, we need to bear in mind that layout is no longer a known known.
 
@@ -88,4 +94,4 @@ Well, I'll be damned – we already have a responsive website! Our content is ad
 
 Thanks to the underlying principles of universality, the web is **responsive by default**. That's great, but it also means that anything we do to the code from now on may compromise this native adaptability.
 
-**Tomorrow:** We'll tread carefully and start to apply the first aspect of responsive design: [typography and fluid grids](../2-typography-and-grids/content.md).
+_**Tomorrow:** We'll tread carefully and start to apply the first aspect of responsive design: [typography and fluid grids](../2-typography-and-grids/content.md)._
