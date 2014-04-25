@@ -1,5 +1,5 @@
 # Build a Responsive Website in a Week
-## DAY 3: Responsive Images and Video
+## Day 3: Responsive Images and Video
 
 In the third part of our responsive web design tutorial, Clearleft's Paul Robert Lloyd looks at incorporating images and video into responsive layouts, and describes some of the problems in this area that still need solving.
 
@@ -75,16 +75,16 @@ Then, on our `<img>` element, we need to add a new `data-fullsrc` attribute that
 
 We also need to add the following line of JavaScript below the image:
 
-		<script>responsiveEnhance(document.getElementById('media-object'), 320);</script>
+	<script>responsiveEnhance(document.getElementById('media-object'), 320);</script>
 
 This tells the browser which image to replace, and at what viewport width to replace it. When JavaScript is disabled (or unavailable), users will get the smallest image. Otherwise, when the viewport is larger than 320px, the larger image will be displayed after the smallest one has finished downloading.
 
 Finally, we need to override the default styling of images. For the detection to work, we need the smaller image to scale larger than its native size. We can do this as follows:
 
 	img.media-object {
-    	margin: 0 auto;
-    	width: 100%;
-    	max-width: 50em; /* 800px */
+		margin: 0 auto;
+		width: 100%;
+		max-width: 50em; /* 800px */
 	}
 
 Again, this is not a perfect solution (especially as we can only reference one additionally sized image), but it's far better than serving larger images regardless.
@@ -150,4 +150,4 @@ And there you have it. Our video embeds now respond to the layout just as beauti
 
 Still, as we examine the fluidity of our pattern portfolio, we can quickly see that although it scales, there are points where we would ideally make the layout a little smarter, adapting it as the width of the browser increases.
 
-***Tomorrow:** We'll look at the final component of responsive web design: media queries.*
+**Tomorrow:** We'll look at the final component of responsive web design: [media queries](../4-media-queries/content.md).
