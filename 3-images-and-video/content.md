@@ -26,6 +26,8 @@ Yesterday we created a fluid layout for our thumbnail pattern. Unfortunately, im
 
 ![Thanks to some stubbornly unresponsive images, our thumbnails break.](1.jpg)
 
+▲ _Thanks to some stubbornly unresponsive images, our thumbnails break._
+
 Fortunately, there's an easy way to fix this. First [discovered by Richard Rutter](http://clagnut.com/sandbox/imagetest/) (an early pioneer of fluid layouts), it involves adding the following rule to images you wish to scale with the layout:
 
 	img {
@@ -42,6 +44,8 @@ You'll note that for these thumbnails, I'm using images that reflect the design 
 As with everything, it's a question of judgement. We need to balance performance against maintainability – and our own sanity! For these thumbnails, the size differential is small enough (138px > 240px) that we can compensate for the file size in other ways. We will use the correct file format (JPEG can typically generate the smallest file size for photos) and apply an appropriate amount of compression. We will cover image optimisation in more detail during the final part of this tutorial.
 
 ![Large images can appear on the media item page.](2.jpg)
+
+▲ _Large images can appear on the media item page._
 
 However, on the media item page, a photo can be anywhere between 288 and 800 pixels wide. Regardless of file format and other optimisations, our largest image could still be anywhere up to 300kb in size, taking several seconds (if not longer) to download over a 3G connection. This is a problem.
 
@@ -117,6 +121,8 @@ the video may not maintain the correct ratio as it scales, or it could simply re
 
 ![Video embed resized in the wrong proportions.](3.jpg)
 
+▲ _Video embed resized in the wrong proportions._
+
 This is because embedded objects aren't able to report the ratio of the video they contain. In order to get round this problem, we need to place the embed inside a container that has the correct ratio, and set the embed to be 100% wide and tall (an approach [first discovered by Thierry Koblentz](http://www.alistapart.com/articles/creating-intrinsic-ratios-for-video/)).
 
 First, we need to add a container around our embed:
@@ -149,5 +155,7 @@ And there you have it. Our video embeds now respond to the layout just as beauti
 [View our responsive video in our pattern portfolio](demo/demo.html)
 
 Still, as we examine the fluidity of our pattern portfolio, we can quickly see that although it scales, there are points where we would ideally make the layout a little smarter, adapting it as the width of the browser increases.
+
+* * *
 
 **Tomorrow:** We'll look at the final component of responsive web design: [media queries](../4-media-queries/content.md).
