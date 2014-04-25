@@ -63,7 +63,7 @@ If there is one guiding rule I’ve discovered whilst developing responsive webs
 
 Thankfully, we have a couple to choose from:
 
-* **em:** The em is intrinsically linked to type as this value is (usually) derived from the width of the ’M’ in each typeface. Importantly, this measure is relative to computed font size of its parent. For example, if your body font size is 16px, a child element with a font size of 2em would be 32px.
+* **em:** The em is intrinsically linked to type as this value is (usually) derived from the width of the ‘M’ in each typeface. Importantly, this measure is relative to computed font size of its parent. For example, if your body font size is 16px, a child element with a font size of 2em would be 32px.
 
 * **%**: For other properties, particularly those affecting layout, the percentage is our friend. Again, this value is relative to the containing element. If you have a `<div>` with a width of 50%, and this contains a child element that also has a width of 50%, the calculated width of this child element will be 25% of the overall document width.
 
@@ -142,7 +142,7 @@ Before we attempt something similar, let’s set up the padding that appears aro
 	<div role="document" class="document">
 		<h1>Arriving in Las Vegas</h1>
 		…
-	</div></! – /document – >
+	</div></!--/document-->
 
 (Note: I’m using [ARIA roles](http://www.w3.org/TR/wai-aria/roles#document_structure_roles) to structure my document, with matching class names for styling hooks. If I wanted to be super fancy, I could omit the class names and use the attribute selector `div[role="document"]` instead).
 
