@@ -214,8 +214,7 @@ This gives us our responsive thumbnails:
 		margin: 0 4.16666666667% 4.16666666667% 0;
 		width: 47.91666666667%;
 		float: left;
-		}
-	
+	}
 	ol.media li.media-item:nth-child(2n) {
 		margin-right: 0;
 	}
