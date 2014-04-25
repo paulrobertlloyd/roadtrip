@@ -224,4 +224,6 @@ This gives us our responsive thumbnails:
 
 The one issue you'll notice (perhaps as you resize the browser) is that the thumbnail images themselves aren't responding to the changing width of their containers.
 
+* * *
+
 **Tomorrow:** We'll discover a surprisingly simple fix for this issue, and continue to [make our layout even more fluid](../3-images-and-video/content.md).
