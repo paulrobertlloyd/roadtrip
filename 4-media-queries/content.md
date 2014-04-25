@@ -156,12 +156,12 @@ The point at which this white space appears is just as the browser grows wider t
 
 	@media screen and (min-width: 35em) {
 		.media-item {
-    			width: 30.612244897959%; /* 240/784 */
-    			margin: 0 4.081632653061% 1.1429em 0; /* 0 32/784 16px 0 */
-    		}
-    		.media-item: nth-child(3n) {
+			width: 30.612244897959%; /* 240/784 */
+			margin: 0 4.081632653061% 1.1429em 0; /* 0 32/784 16px 0 */
+		}
+		.media-item: nth-child(3n) {
 			margin-right: 0;
-    		}
+		}
 	}
 
 Note that we don't need to rewrite all the styles required for the thumbnail inside this media query, only the parts we wish to adapt.
