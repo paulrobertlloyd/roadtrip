@@ -1,5 +1,5 @@
 # Build a Responsive Website in a Week
-## DAY 5: Going further with Responsive Web Design
+## Day 5: Going further with Responsive Web Design
 
 In the final part of our responsive web design tutorial, Clearleft's Paul Robert Lloyd explains how there is more to a responsive design than just flexible layouts, images and media queries.
 
