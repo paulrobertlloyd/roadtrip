@@ -1,5 +1,5 @@
 # Build a Responsive Website in a Week
-## DAY 4: Getting to Grips With Media Queries
+## Day 4: Getting to Grips With Media Queries
 
 In the penultimate part of our responsive web design tutorial, Clearleft's Paul Robert Lloyd explains how media queries work, and describes a device-agnostic approach to breakpoints.
 
@@ -143,25 +143,25 @@ You will remember that in part 2 we styled our thumbnails to be responsive. Yet 
 Here is our original CSS:
 
 	ol.media li.media-item {
-  	background-color: #fff;
-  	margin: 0 4.16666666667% 4.16666666667% 0;
+  		background-color: #fff;
+  		margin: 0 4.16666666667% 4.16666666667% 0;
 		width: 47.91666666667%;
 		float: left;
-		}
-		ol.media li.media-item:nth-child(2n) {
-			margin-right: 0;
-		}
+	}
+	ol.media li.media-item:nth-child(2n) {
+		margin-right: 0;
+	}
 
 The point at which this white space appears is just as the browser grows wider the 560px. We'll choose this value at which to swap to showing three thumbnails per row. We can do that by adding the following CSS:
 
 	@media screen and (min-width: 35em) {
 		.media-item {
-    	width: 30.612244897959%; /* 240/784 */
-    	margin: 0 4.081632653061% 1.1429em 0; /* 0 32/784 16px 0 */
-    	}
-    	.media-item: nth-child(3n) {
+    			width: 30.612244897959%; /* 240/784 */
+    			margin: 0 4.081632653061% 1.1429em 0; /* 0 32/784 16px 0 */
+    		}
+    		.media-item: nth-child(3n) {
 			margin-right: 0;
-    	}
+    		}
 	}
 
 Note that we don't need to rewrite all the styles required for the thumbnail inside this media query, only the parts we wish to adapt.
@@ -214,4 +214,4 @@ We can follow a similar approach for the other parts of our design, swapping in 
 
 And there we have it! We've built a responsive website – and with a day to spare! Well, not quite. Flexible layouts, images and media queries is only the start of the responsive design process.
 
-***Tomorrow:** In the final part of this tutorial, we'll go beyond responsive web design, and look at how we can build truly responsive websites.*
+**Tomorrow:** In the final part of this tutorial, we'll go beyond responsive web design, and look at [how we can build truly responsive websites](../5-going-further/content.md).
