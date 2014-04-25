@@ -41,7 +41,7 @@ Not only is this an important page on the site, but it probably includes enough 
 
 ![For our media gallery example, I started by looking at the requirements of the media item page. Once I was happy with the grid, type and visual treatment, I moved on to the design of the homepage.](1.jpg)
 
-_For our media gallery example, I started by looking at the requirements of the media item page. Once I was happy with the grid, type and visual treatment, I moved on to the design of the homepage._
+▲ _For our media gallery example, I started by looking at the requirements of the media item page. Once I was happy with the grid, type and visual treatment, I moved on to the design of the homepage._
 
 One useful way to stress test a design is to take such a page and adapt it for a narrower (~320px wide) screen. You'll likely discover that some aspects of the design will need to be rethought for them to work at this width. Here are some examples:
 
@@ -55,7 +55,7 @@ One useful way to stress test a design is to take such a page and adapt it for a
 
 ![Creating a narrower layout helps us stress test a design.](2.jpg)
 
-_Creating a narrower layout helps us stress test a design._
+▲ _Creating a narrower layout helps us stress test a design._
 
 Designing two contrasting layouts reinforces the idea that a design will adapt, while ironing out potential gotchas early on. While this sounds like a doubling up of work, bear in mind that we are not designing every page to pixel-perfect precision. Instead, we're focusing on building a scalable design language – one that will evolve as we start to implement it in code, and one that is based around individual modules and components.
 
@@ -70,7 +70,7 @@ Unsurprisingly, for an industry that has historically treated the web like print
 
 ![In thinking about the design of the media item page, I used the mobilify design game to think about what elements needed to be shown and their priority on the page.](3.jpg)
 
-_In thinking about the design of the media item page, I used the mobilify design game to think about what elements needed to be shown and their priority on the page._
+▲ _In thinking about the design of the media item page, I used the mobilify design game to think about what elements needed to be shown and their priority on the page._
 
 There's still room for the tools we're already using of course, but when designing a website in broad terms, we need to bear in mind that layout is no longer a known known.
 
