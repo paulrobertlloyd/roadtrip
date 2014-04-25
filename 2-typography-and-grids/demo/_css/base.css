@@ -1,0 +1,278 @@
+/* ============================================================
+    Reset
+============================================================ */
+html, body, div, span, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+abbr, address, cite, code,
+del, dfn, em, img, ins, kbd, q, samp,
+small, strong, sub, sup, var, b, i,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section, summary,
+time, mark, audio, video {
+    margin:0;
+    padding:0;
+    border:0;
+    outline:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+}
+
+article,aside,details,figcaption,figure,
+footer,header,hgroup,menu,nav,section { 
+    display:block;
+}
+
+
+/* ============================================================
+    Sections
+============================================================ */
+body {
+    color:#333;
+    font:100%/1.5 Cambria, Georgia, serif; /* 16px */
+   -webkit-font-smoothing:antialiased;
+    text-rendering:optimizeLegibility;
+    background:#ece6d6 url(_assets/bg-light.png) repeat;
+    margin:0 auto;
+    padding: 1em 20%; /* Temporary */
+}
+
+nav ul {
+    list-style:none;
+}
+
+h1 {
+    color:#2c1c16;
+    font:bold 1.75em/1.1429 'Proxima Nova Bold',sans-serif; /* 28px/32px */
+    margin:0.8571em 0 0; /* 24px 0 0 */
+}
+h2 {
+    color:#d06f1c;
+    font:bold 1.25em/1.2 'Proxima Nova Condensed Bold','Arial Narrow',sans-serif; /* 20px/24px */
+    text-transform:uppercase;
+    margin:2em 0 0; /* 40px 0 0 */
+    border:solid #bcb3a6;
+    border-width:2px 0 1px;
+    padding:0.6111em 0 0.6667em; /* 11px 0 12px */
+}
+h3 {
+    color:#2c1c16;
+    font:bold 1.125em/1.1111 'Proxima Nova Bold',sans-serif; /* 18px/20px */
+    margin:1.1111em 0 0; /* 20px 0 0 */
+}
+h4, h5, h6 {
+    color:#3c2c26;
+    font:bold 1em/1 'Proxima Nova Bold',sans-serif; /* 14px/16px */
+    margin:0.75em 0 -0.25em; /* 12px 0 -4px */
+}
+
+
+/* ============================================================
+    Grouping content
+============================================================ */
+p, pre, ol, ul, dl, figure, figcaption, table, fieldset {
+    margin:0.75em 0; /* 12px 0 */
+}
+
+hr {
+    display:block;
+    height:1px;
+    border:0;   
+    border-top:2px solid #bcb3a6;
+    margin:1em 0;
+    padding:0;
+}
+
+blockquote, q {
+    quotes:none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content:'';
+    content:none;
+}
+
+ul ul,
+ul ol {
+    margin-top:0;
+}
+li, dd {
+    margin-left:1.5em;
+}
+
+dt {
+    font-family:'Proxima Nova Bold',sans-serif;
+    font-weight:bold;
+}
+
+figcaption, caption {
+    color:#666;
+    font-family:'Proxima Nova Regular',sans-serif;
+    font-size:0.875em; /* 14px */
+    line-height:1.1429; /* 16px */
+    text-align:left;
+    caption-side:bottom;
+    margin:0.8571em 0; /* 12px 0 */
+}
+
+
+/* ============================================================
+    Text-level semantics
+============================================================ */
+a {
+    color:#603;
+    font-size:100%;
+    font-family:'Proxima Nova Bold',sans-serif;
+    font-weight:bold;
+    text-decoration:none;
+}
+a:hover,
+a:focus {
+    color:#825;
+    border-bottom:1px solid #c9a3a9;
+}
+
+:lang(en-gb)>q {
+    quotes:"\201C" "\201D" "\2018" "\2019";
+    }
+    q::before { content:open-quote; }
+    q::after { content:close-quote;
+    }
+
+small {
+    font-size:0.875em; /* 14px */
+    line-height:1.1429; /* 16px */
+}
+
+abbr {
+    letter-spacing:1px;
+    }
+    abbr[title]:hover {
+        border-bottom:1px dotted rgba(0,0,0,0.2);
+        cursor:help;
+    }
+time {
+    color:#666;
+    font-family:'Proxima Nova Regular',sans-serif;
+    font-size:0.75em; /* 12px */
+    line-height:1.3334em; /* 16px */
+    text-transform:uppercase;
+}
+code, samp {
+    font:0.875em/90% Menlo,Monaco,'Courier New',Courier,monospace; /* 14px/90% */
+}
+code {
+    color:#369;
+}
+kbd {
+    color:#666;
+    font:normal normal 0.875em/90% sans-serif; /* 14px/90% */
+    background-color:#dcd6c6;
+    margin:0 0.25em; /* 0 4px */
+    border:1px solid #ccc6b6;
+    border-radius:4px;
+    padding:0.1429em 0.4286em; /* 2px 6px */
+}
+sub {
+    font-size:smaller;
+    line-height:90%;
+    vertical-align:sub;
+}
+sup {
+    font-size:smaller;
+    line-height:90%;
+    vertical-align:super;
+}
+
+/* ============================================================
+    Edits
+============================================================ */
+mark, ins {
+    background-color:#ffc;
+    text-decoration:none;
+}
+del {
+    text-decoration: line-through;
+}
+
+
+/* ============================================================
+    Tabular data
+============================================================ */
+table {
+    border-collapse:collapse;
+    border-spacing:0;
+}
+td, th {
+    text-align:left;
+    border-bottom:1px solid #bcb3a6;
+    padding:0.25em 1em 0.1875em 0; /* 4px 16px 3px 0 */
+}
+th {
+    color:#222;
+    font:bold 0.875em/1.1429 'Proxima Nova Bold',sans-serif; /* 14px/16px */
+    border-bottom-color:#bcb3a6;
+    padding:0.5714em 0 0.5em; /* 8px 0 7px */
+}
+td {
+    vertical-align:top;
+}
+
+
+/* ============================================================
+    Forms
+============================================================ */
+.field {
+    font:1em/1.5 sans-serif;
+    border:1px solid #bcb3a6;
+    padding:0.25em;
+    width:50%;
+}
+label {
+    font-weight:bold;
+    line-height:1.5;
+    margin:0.25em 0;
+    display:block;
+    float:left;
+    width:20%;
+}
+label.check {
+    font-weight:normal;
+    margin-left:20%;
+    float:none;
+}
+fieldset div {
+    margin:0.75em 0;
+}
+fieldset abbr[title="Required"] {
+    color:#900;
+    font:normal 1.5em/0.1 sans-serif; /* 20px */
+    border-bottom:0 none;
+}
+fieldset em {
+    color:#666;
+    font-family:sans-serif;
+    font-style:normal;
+    font-size:0.875em; /* 14px */
+    line-height:1.1429; /* 16px */
+    margin:0.25em 0 0.25em 20%;
+    display:block;
+}
+fieldset.options {
+    clear:left;
+}
+fieldset.options ul {
+    list-style:none;
+    margin:0.25em 0 0.25em 20%;
+}
+fieldset.options li {
+    margin-left:0;
+}
+fieldset.options ul label {
+    float:none;
+    width:auto;
+    font-weight:normal;
+}

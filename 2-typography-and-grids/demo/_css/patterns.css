@@ -1,0 +1,210 @@
+/* ============================================================
+    Text styles
+============================================================ */
+.lede {
+    color:#222;
+    font:normal 1em/1.25 'Proxima Nova Regular',sans-serif; /* 16px/20px */
+    margin:0.5em 0;
+}
+.meta {
+    color:#666;
+    font-family:'Proxima Nova Regular',sans-serif;
+    font-size:0.75em; /* 12px */
+    line-height:1.3334em /* 16px */
+    letter-spacing:0.0833em;
+    text-transform:uppercase;
+    }
+    h1 + .meta {
+        margin-top:0;
+    }
+.meta a {
+    color:#666;
+}
+
+
+/* ============================================================
+    Page Navigation
+============================================================ */
+.pages {
+    border-top:0.25em double #bcb3a6;
+    padding-top:0.5em;
+    clear:left;
+}
+.pages li {
+    display:inline;
+    margin:0;
+    padding:0.25em;
+    border-right:1px solid #bcb3a6;
+}
+.pages li.page-current {
+    background-color:#bcb3a6;
+}
+.pages li.page-prev,
+.pages li.page-next {
+    border:0 none;
+}
+.pages li a {
+    font-family:sans-serif;
+    font-weight:bold;
+    font-size:0.875em; /* 14px */
+    line-height:1.1429; /* 16px */
+    padding:0.5714em; /* 8px; */
+    }
+    .pages li a:hover {
+        border:0 none;
+    }
+.pages li.page-prev a {
+    padding-left:0;
+}
+.pages li.page-next a {
+    padding-right:0;
+}
+
+
+/* ============================================================
+    Page Navigation
+============================================================ */
+.items {
+    clear:left;
+    overflow:hidden;
+}
+.items li {
+    display:inline;
+    margin:0;
+    padding:0.25em;
+    float:left;
+}
+.items li.item-next {
+    float:right;
+}
+.items li a {
+    font-family:sans-serif;
+    font-weight:bold;
+    font-size:0.875em; /* 14px */
+    line-height:1.1429; /* 16px */
+    padding:0.5714em; /* 8px; */
+    }
+    .items li a:hover {
+        border:0 none;
+    }
+.items li.item-prev a {
+    padding-left:0;
+}
+.items li.item-next a {
+    padding-right:0;
+}
+
+
+/* ============================================================
+    vCards
+============================================================ */
+.vcards {
+    overflow:hidden;
+}
+.vcard {
+    font-family:"Proxima Nova Regular",sans-serif;
+    list-style:none;
+    margin:0.75em 0;
+    overflow:hidden;
+}
+.vcard p {
+    font-size:0.875em;
+    line-height:1.4286; /* 20px */
+}
+.vcard .fn {
+    margin-top:0;
+}
+.vcard a {
+    font-family:'Proxima Nova Regular',sans-serif;
+    font-weight:normal;
+}
+.vcard .photo {
+    margin-right:0.5em;
+    border-radius:100%;
+    float:left;
+}
+
+
+/* ============================================================
+    Links
+============================================================ */
+.link {
+    list-style-image: url(_assets/bullet-star.png);
+}
+
+
+/* ============================================================
+    Media Frame
+============================================================ */
+.media-frame {
+    background:#1c0c06 url('_assets/bg-dark.png') repeat;
+   -webkit-box-shadow:inset 0 2px 0 #000;
+   -moz-box-shadow:inset 0 2px 0 #000;
+   -ms-box-shadow:inset 0 2px 0 #000;
+   -o-box-shadow:inset 0 2px 0 #000;
+    box-shadow:inset 0 2px 0 #000;
+    padding:1em 5%; /* 16px 16/320 */
+    margin:0 -5.555555555556%; /* 0 16/288 */
+}
+.media-frame .media-object {
+    margin:0 auto;
+    display:block;
+}
+
+
+/* ============================================================
+    Media List
+============================================================ */
+.media {
+    list-style:none;
+    margin:0;
+    clear:both;
+    overflow:hidden;
+}
+.media-item {
+    background-color:#fff;
+   -webkit-box-shadow:1px 1px 0 rgba(188,179,166,0.5);
+   -moz-box-shadow:1px 1px 0 rgba(188,179,166,0.5);
+   -ms-box-shadow:1px 1px 0 rgba(188,179,166,0.5);
+   -o-box-shadow:1px 1px 0 rgba(188,179,166,0.5);
+    box-shadow:1px 1px 0 rgba(188,179,166,0.5);
+    width:47.916666666667%; /* 138/288 */
+    margin:0 4.166666666667% 4.166666666667% 0; /* 0 12/288 12/288 0 */
+    float:left;
+    }
+    .media-item:nth-child(2n) {
+        margin-right:0;
+    }
+.media-item h2.title {
+    color:#603;
+    font-family:'Proxima Nova Bold',sans-serif;
+    font-weight:bold;
+    font-size:0.875em; /* 14px */
+    line-height:1.1429; /* 16px */
+    text-transform:capitalize;
+    margin:0;
+    border:0 none;
+    padding:0 0.2857em; /* 0 4px; */
+}
+.media-item time {
+    font-weight:normal;
+    margin-left:0.3334em; /* 4px */
+}
+.media-item img {
+    margin-bottom:0.2857em; /* 4px */
+}
+.media-item a {
+    padding-bottom:0.25em; /* 4px */
+    display:block;
+    }
+    .media-item a:hover {
+        border:0 none;
+    }
+
+
+/* ============================================================
+    Map
+============================================================ */
+.map {
+    outline:2px solid #bcb3a6;
+}
