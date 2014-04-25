@@ -33,17 +33,17 @@ If you want your desktop-orientated layout to appear in earlier versions of Inte
 
 The first (and simplest) is to use a JavaScript polyfill. I like [respond.js](https://github.com/scottjehl/Respond) created by Scott Jehl. Not only is this script small (4kb), but it supports em-based media queries as well. Using conditional comments in the `head` means only the right versions of IE use this script:
 
-	<! – [if lt IE 9]>
+	<!--[if lt IE 9]>
 		<script src="_js/lib/respond/respond.min.js"></script>
-	<![endif] – >
+	<![endif]-->
 
 The second option is to move complex layout styles into a separate CSS file, linking to this from the `head` with a media query inside the `media` attribute. This gives us layout styles that we can then repeat (without the media query) within a conditional comment:
 
 	<link rel="stylesheet" type="text/css" href="style.css" media="screen, handheld" />
 	<link rel="stylesheet" type="text/css" href="layout.css" media="screen  and (min-width: 40.5em)" />
-	<! – [if (lt IE 9)&(!IEMobile)]>
+	<!--[if (lt IE 9)&(!IEMobile)]>
 		<link rel="stylesheet" type="text/css" href="layout.css" />
-	<![endif] – >
+	<![endif]-->
 
 Note that this conditional comment needs to exclude `IEMobile` so that Internet Explorer on Windows Phone continues to ignore the complex layout styles.
 
@@ -73,6 +73,8 @@ As useful as simulators and emulators can be, they can only do that; simulate. T
 
 ![The device testing lab used during the development of the BBC News mobile site.](1.jpg)
 
+▲ _The device testing lab used during the development of the BBC News mobile site._
+
 This means having a suite of devices to test on. At minimum this should represent all contemporary mobile operating systems (iOS, Android, Windows Phone, BlackBerry OS, Symbian) and include previous versions too. Fragmentation around the Android platform makes it difficult to suggest one particular version you should test on, but if a site works on 2.1 (Eclair) then it will likely work on later versions. Be sure to install [Opera Mini](http://www.opera.com/mobile/) on these devices and test on this too.
 
 For an example of just how broad a test suite can be, [David Blooman has described the device lab](http://mobiletestingfordummies.tumblr.com/post/20056227958/testing) used by BBC during the redesign of their responsive news website. Luke Wroblewski also [asked a number of mobile developers to list which phones they test with](https://bagcheck.com/blog/22-mobile-device-testing-the-gear) on Bagcheck. Finally, tools like [Adobe Shadow](http://labs.adobe.com/technologies/shadow/) and [showoff.io](https://showoff.io/) make it easier to test designs across many devices at the same time.
@@ -100,6 +102,8 @@ When I was designing [my personal site](http://paulrobertlloyd.com/), I spent a 
 
 ![Only by testing my personal website in the wild was I able to discover issues like the inability to scroll past embedded 'slippy' maps. To fix this I added a right-hand margin, making them easier to scroll past.](2.jpg)
 
+▲ _Only by testing my personal website in the wild was I able to discover issues like the inability to scroll past embedded 'slippy' maps. To fix this I added a right-hand margin, making them easier to scroll past._
+
 Regardless of device, the biggest improvements you can make will be those effecting the performance of your site. Performance could be an entire article in and of itself, but the three key things you'll want to focus on are: caching, the size of the files and the number of HTTP requests being made. Tools like [Google Page Speed](https://developers.google.com/pagespeed/), [ySlow](http://yslow.org/) and [WebPagetest](http://webpagetest.org/) can tell us how well pages are performing and suggest areas for improvement.
 
 Simple things like using CSS gradients instead of background images, embedding small images into our CSS files using [data URIs](http://css-tricks.com/data-uris/) and concatenating CSS and JavaScript files can reduce the number of HTTP requests. Moving references to JavaScript files to the end of the document can speed up the page rendering too.
@@ -107,6 +111,8 @@ Simple things like using CSS gradients instead of background images, embedding s
 We can reduce the size of image assets by using appropriate file formats and acceptable levels of compression. Techniques such as blurring out the background of images (giving them a depth of field effect) and running them through applications like [ImageOptim](http://imageoptim.com/) can reduce their size even further. We can also speed up the delivery of assets by hosting them on a CDN.
 
 ![Utilities like ImageOptim can reduce the file size of images.](3.jpg)
+
+▲ _Utilities like ImageOptim can reduce the file size of images._
 
 Techniques like conditional loading – where certain parts of a page are only shown when requested by the user – are likely to grow in popularity, especially on larger sites. For example, on our media item page, we may decide that the related links are not essential content. Instead of including it in the page source, we can instead provide a link that requests this content only when clicked. On larger displays, this content would be loaded by default. [Jeremy Keith has written more about this technique](http://24ways.org/2011/conditional-loading-for-responsive-designs) on 24 ways.
 
