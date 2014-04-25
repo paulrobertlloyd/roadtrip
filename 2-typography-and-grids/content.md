@@ -1,5 +1,5 @@
 # Build a Responsive Website in a Week
-## DAY 2: Responsive Typography and Grids
+## Day 2: Responsive Typography and Grids
 
 In the second part of our responsive web design tutorial, Clearleft's Paul Robert Lloyd will tell us how to translate static page designs into adaptable, fluid websites. So let go of those pixels and learn to love proportions!
 
@@ -209,12 +209,13 @@ This gives us our responsive thumbnails:
 		width: 47.91666666667%;
 		float: left;
 		}
-		ol.media li.media-item:nth-child(2n) {
-			margin-right: 0;
-		}
+	
+	ol.media li.media-item:nth-child(2n) {
+		margin-right: 0;
+	}
 
 [View the pattern portfolio with our newly responsive thumbnails](demo/demo.html)
 
 The one issue you'll notice (perhaps as you resize the browser) is that the thumbnail images themselves aren't responding to the changing width of their containers.
 
-***Tomorrow:** We'll discover a surprisingly simple fix for this issue, and continue to make our layout even more fluid.*
+**Tomorrow:** We'll discover a surprisingly simple fix for this issue, and continue to [make our layout even more fluid](../3-images-and-video/content.md).
