@@ -33,6 +33,8 @@ I like to begin projects by tackling typography as a distinct phase. I do this b
 
 ![By creating a basic style guide, we can demonstrate how the base HTML elements will appear within the context of the overall design.](1.jpg)
 
+▲ _By creating a basic style guide, we can demonstrate how the base HTML elements will appear within the context of the overall design._
+
 With that in mind, let's start with the `<body>` element:
 
 	body {
@@ -133,6 +135,8 @@ As we're developing our 'mobile' styles first, it can be tempting to think that 
 
 ![Content needn't be linearised on narrower screens.](2.png)
 
+▲ _Content needn't be linearised on narrower screens._
+
 Before we attempt something similar, let's set up the padding that appears around our main content. This corresponds to the '.document' `<div>` we've added to our markup:
 
 	<div role="document" class="document">
@@ -163,6 +167,8 @@ As the resulting value we want is a percentage, we'll multiply this number by 10
 Easy enough. Now let's try something a *little* more complicated. One of the patterns in the design is an ordered list of thumbnails. These appear in rows of two, with a gutter appearing between each column, and margins below each item:
 
 ![The thumbnails that appear on the homepage.](3.jpg)
+
+▲ __he thumbnails that appear on the homepage._
 
 The HTML for these thumbnails is as follows:
 
