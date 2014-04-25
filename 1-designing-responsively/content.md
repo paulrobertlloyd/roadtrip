@@ -94,4 +94,6 @@ Well, I'll be damned – we already have a responsive website! Our content is ad
 
 Thanks to the underlying principles of universality, the web is **responsive by default**. That's great, but it also means that anything we do to the code from now on may compromise this native adaptability.
 
-_**Tomorrow:** We'll tread carefully and start to apply the first aspect of responsive design: [typography and fluid grids](../2-typography-and-grids/content.md)._
+* * *
+
+**Tomorrow:** We'll tread carefully and start to apply the first aspect of responsive design: [typography and fluid grids](../2-typography-and-grids/content.md).
