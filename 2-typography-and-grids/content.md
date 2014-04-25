@@ -168,7 +168,7 @@ Easy enough. Now let's try something a *little* more complicated. One of the pat
 
 ![The thumbnails that appear on the homepage.](3.jpg)
 
-▲ __he thumbnails that appear on the homepage._
+▲ _The thumbnails that appear on the homepage._
 
 The HTML for these thumbnails is as follows:
 
