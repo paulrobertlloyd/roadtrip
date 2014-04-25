@@ -1,5 +1,5 @@
 # Build a Responsive Website in a Week
-## DAY 1: Designing Responsively
+## Day 1: Designing Responsively
 
 Interested in responsive web design but not sure how to get started? Don't fret, help is at hand! As part of Responsive Week, we've asked Clearleft's Paul Robert Lloyd to talk us through the responsive design process, soup to nuts.
 
@@ -88,4 +88,4 @@ Well, I'll be damned – we already have a responsive website! Our content is ad
 
 Thanks to the underlying principles of universality, the web is **responsive by default**. That's great, but it also means that anything we do to the code from now on may compromise this native adaptability.
 
-***Tomorrow:** We'll tread carefully and start to apply the first aspect of responsive design: typography and fluid grids.*
+**Tomorrow:** We'll tread carefully and start to apply the first aspect of responsive design: [typography and fluid grids](../2-typography-and-grids/content.md).
