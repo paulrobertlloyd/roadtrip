@@ -121,7 +121,7 @@ Throughout this tutorial I have introduced the responsive design process, and gi
 
 We have discovered that responsive web design is a form of progressive enhancement, and as such, a continuation of our maturing understanding of the web as a universal medium. We have also learnt to embrace proportions, and the formula that underpins fluid layouts. There are still problems however, especially around images, but continual experimentation, based on testing and usage will guide the way.
 
-And with that, we have our finished website: <http://roadtrip.paulrobertlloyd.com/>
+And with that, we have our finished website: <http://paulrobertlloyd.github.io/roadtrip>
 
 But a website is never finished. With that in mind, I invite you to clone, fork and contribute to the code behind this demo site on Github:
 
